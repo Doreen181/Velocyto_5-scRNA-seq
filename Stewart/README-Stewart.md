@@ -1,5 +1,5 @@
 ## Directory structure
-
+```
 |-- code \
 |-- data \
 |   |-- scPure2_AllIntegrated.rds \
@@ -14,7 +14,7 @@
 |   |-- naive \
 |   |   |-- naive_quant_res \
 |   |-- ... \
-
+```
 
 ## Download FASTQ files
 Raw sequencing reads were downloaded from [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9544?query=E-MTAB-9544).
