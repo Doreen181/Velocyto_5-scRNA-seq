@@ -1,32 +1,32 @@
 ## Directory structure
-
-|-- code \
-|-- sauron \
-|   |-- ... \
-|-- data \
-|   |-- preprocessing_scripts \
-|   |   |-- 02b_scale_integrate.R \
-|   |   |-- remove_cells.R \
-|   |-- gene_lists \
-|   |   |-- main_cell_types.csv \
-|   |   |-- bcell_types.csv \
-|   |   |-- bcell_types_germsub.csv \
-|   |   |-- bcell_types_germsub_zonesub.csv \
-|   |-- metadata.csv \
-|-- cellranger \
-|   |-- SampleID_1_14_mar19 \
-|   |   |-- barcodes.tsv.gz \
-|   |   |-- features.tsv.gz \
-|   |   |-- matrix.mtx.gz \
-|   |-- ... \
-|-- salmon \
-|   |-- SampleID_1_14_mar19 \
-|   |   |-- _quant_res \
-|   |-- ... \
-|-- velocyto \
-|   |-- SampleID_1_14_mar19.loom \
-|   |-- ... \
-
+```
+|-- code
+|-- sauron
+|   |-- ...
+|-- data
+|   |-- preprocessing_scripts
+|   |   |-- 02b_scale_integrate.R
+|   |   |-- remove_cells.R
+|   |-- gene_lists
+|   |   |-- main_cell_types.csv
+|   |   |-- bcell_types.csv
+|   |   |-- bcell_types_germsub.csv
+|   |   |-- bcell_types_germsub_zonesub.csv
+|   |-- metadata.csv
+|-- cellranger
+|   |-- SampleID_1_14_mar19
+|   |   |-- barcodes.tsv.gz
+|   |   |-- features.tsv.gz
+|   |   |-- matrix.mtx.gz
+|   |-- ...
+|-- salmon
+|   |-- SampleID_1_14_mar19
+|   |   |-- _quant_res
+|   |-- ...
+|-- velocyto
+|   |-- SampleID_1_14_mar19.loom
+|   |-- ...
+```
 
 ## Download FASTQ files
 Raw sequencing reads were downloaded from [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9491).
