@@ -1,19 +1,19 @@
 ## Directory structure
 
-|-- code
-|-- data
-|   |-- scPure2_AllIntegrated.rds
-|-- cellranger
-|   |-- naive
-|       |-- outs
-|   |   |   |-- filtered_feature_bc_matrix
-|   |   |-- velocyto
-|   |   |   |-- naive.loom
-|   |-- ...
-|-- salmon
-|   |-- naive
-|   |   |-- naive_quant_res
-|   |-- ...
+|-- code \
+|-- data \
+|   |-- scPure2_AllIntegrated.rds \
+|-- cellranger \
+|   |-- naive \
+|       |-- outs \
+|   |   |   |-- filtered_feature_bc_matrix \
+|   |   |-- velocyto \
+|   |   |   |-- naive.loom \
+|   |-- ... \
+|-- salmon \
+|   |-- naive \
+|   |   |-- naive_quant_res \
+|   |-- ... \
 
 
 ## Download FASTQ files
