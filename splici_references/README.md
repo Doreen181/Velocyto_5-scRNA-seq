@@ -4,7 +4,7 @@ spliced+intronic transcriptome references for alignment with salmon were generat
 
 | Dataset    | Reference genome | Read length | Flank trim length |
 | ---------- | ---------------- | ----------- | ----------------- |
-| Stewart et al. | GRCH38-2020 | 100 | 5 |
+| Stewart et al. | GRCh38-2020 | 100 | 5 |
 | Mathew et al. | mm10-2020 | 110 | 5 |
-| Fu et al. (paired-end)| GRCH38-2020 | 101 | 5 |
-| Du et al. (R2-only) | GRCH38-2020 | 91 | 5 |
+| Fu et al. (paired-end)| GRCh38-2020 | 101 | 5 |
+| Fu et al. (R2-only) | GRCh38-2020 | 91 | 5 |
