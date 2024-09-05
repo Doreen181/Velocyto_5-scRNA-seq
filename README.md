@@ -4,5 +4,5 @@ This repository contains the code and necessary directories to reproduce the ana
 
 Analyzed datasets:
 - [Stewart *et al.*](https://doi.org/10.3389/fimmu.2021.602539)
-- [Mathew *et al.*]((https://doi.org/10.1016/j.celrep.2021.109286)
-- [Fu *et al.*]((https://doi.org/10.1084/jem.20230930)
+- [Mathew *et al.*](https://doi.org/10.1016/j.celrep.2021.109286)
+- [Fu *et al.*](https://doi.org/10.1084/jem.20230930)
