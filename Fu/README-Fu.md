@@ -1,26 +1,26 @@
 ## Directory structure
-
-|-- code \
-|-- data \
-|   |-- GSE252994_integrated8.rpca0919.rds \
-|   |-- cell \
-|   |   |-- mj001.csv \
-|   |   |-- ... \
-|   |-- metadata.csv \
-|-- cellranger \
-|   |-- MJ001 \
-|   |   |-- barcodes.tsv.gz \
-|   |   |-- features.tsv.gz \
-|   |   |-- matrix.mtx.gz \
-|   |-- ... \
-|-- salmon \
-|   |-- MJ001 \
-|   |   |-- MJ001_quant_res \
-|   |-- ... \
-|-- velocyto \
-|   |-- MJ001.loom \
-|   |-- ... \
-
+```
+|-- code
+|-- data
+|   |-- GSE252994_integrated8.rpca0919.rds
+|   |-- cell
+|   |   |-- mj001.csv
+|   |   |-- ...
+|   |-- metadata.csv
+|-- cellranger
+|   |-- MJ001
+|   |   |-- barcodes.tsv.gz
+|   |   |-- features.tsv.gz
+|   |   |-- matrix.mtx.gz
+|   |-- ...
+|-- salmon
+|   |-- MJ001
+|   |   |-- MJ001_quant_res
+|   |-- ...
+|-- velocyto
+|   |-- MJ001.loom
+|   |-- ...
+```
 
 ## Download BAM files
 BAM files were downloaded from [SRA](https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=study&acc=SRP417027) and converted to FASTQ files by cellranger bamtofastq.
