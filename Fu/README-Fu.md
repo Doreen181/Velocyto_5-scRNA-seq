@@ -6,7 +6,6 @@
 |   |-- cell
 |   |   |-- mj001.csv
 |   |   |-- ...
-|   |-- metadata.csv
 |-- cellranger
 |   |-- MJ001
 |   |   |-- barcodes.tsv.gz
