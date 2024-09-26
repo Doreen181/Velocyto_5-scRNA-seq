@@ -20,7 +20,7 @@
 Raw sequencing reads were downloaded from [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9544?query=E-MTAB-9544).
 
 ## Download reference dataset
-scPure2_AllIntegrated.rds (processed dataset by Stewart et al. was downloaded from
+scPure2_HB6_UMAP3D.rds (processed dataset by Stewart et al. was downloaded from
 [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9544?query=E-MTAB-9544).
 
 ## Run Cell Ranger
