@@ -44,13 +44,13 @@ Required gene lists for preprocessing was downloaded from [github](https://githu
 Required metadata for preprocessing was downloaded from [github](https://github.com/angelettilab/scMouseBcellFlu/blob/master/data/metadata.csv).
 
 ## Run Cell Ranger
-cellranger count was run on each sample seperately, folder structure compatible with published
+cellranger count was run on each sample separately, folder structure compatible with published
 code is shown as an example for sample "SampleID_1_14_mar19".
 
 ## Run salmon
-salmon/alevin-fry was run on each sample seperately, folder structure compatible with published
+salmon/alevin-fry was run on each sample saperately, folder structure compatible with published
 code is shown as an example for sample "SampleID_1_14_mar19".
 
 ## Run velocyto
-Velocyto was run on each sample seperately, folder structure compatible with published
+Velocyto was run on each sample separately, folder structure compatible with published
 code is shown as an example for sample "SampleID_1_14_mar19".
