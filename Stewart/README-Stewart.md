@@ -24,13 +24,13 @@ scPure2_HB6_UMAP3D.rds (processed dataset by Stewart et al. was downloaded from
 [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9544?query=E-MTAB-9544).
 
 ## Run Cell Ranger
-cellranger count was run on each sample seperately, folder structure compatible with published
+cellranger count was run on each sample separately, folder structure compatible with published
 code is shown as an example for sample "naive".
 
 ## Run salmon
-salmon/alevin-fry was run on each sample seperately, folder structure compatible with published
+salmon/alevin-fry was run on each sample separately, folder structure compatible with published
 code is shown as an example for sample "naive".
 
 ## Run velocyto
-Velocyto was run on each sample seperately, inside directory ./cellranger.
+Velocyto was run on each sample separately, inside directory ./cellranger.
 Folder structure compatible with published code is shown as an example for sample "naive"
