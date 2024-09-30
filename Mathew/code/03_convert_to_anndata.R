@@ -3,7 +3,8 @@
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 library(Seurat)
-library(MuDataSeurat)
+library(SeuratData)
+library(SeuratDisk)
 
 # ==============================================================================
 # load processed dataset: cellranger
@@ -12,7 +13,9 @@ cellranger <- readRDS(file = "./02_filtering_and_preprocessing/cellranger/06_clu
 cellranger <- UpdateSeuratObject(object = cellranger)
 
 # convert to anndata
-MuDataSeurat::WriteH5AD(cellranger, "../data/processed_seurat_cellranger.h5ad", assay="RNA")
+SaveH5Seurat(cellranger, filename = "../data/processed_seurat_cellranger.h5Seurat")
+Convert("../data/processed_seurat_cellranger.h5Seurat", dest = "../data/processed_seurat_cellranger.h5ad")
+
 
 # ==============================================================================
 # load processed dataset: salmon
@@ -21,4 +24,5 @@ salmon <- readRDS(file = "./02_filtering_and_preprocessing/salmon/06_cluster/seu
 salmon <- UpdateSeuratObject(object = salmon)
 
 # convert to anndata
-MuDataSeurat::WriteH5AD(salmon, "../data/processed_seurat_salmon.h5ad", assay="RNA")
+SaveH5Seurat(salmon, filename = "../data/processed_seurat_salmon.h5Seurat")
+Convert("../data/processed_seurat_salmon.h5Seurat", dest = "../data/processed_seurat_salmon.h5ad")
